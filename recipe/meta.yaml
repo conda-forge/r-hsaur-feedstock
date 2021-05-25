@@ -7,7 +7,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: HSAUR_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/HSAUR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/HSAUR/HSAUR_{{ version }}.tar.gz
@@ -35,18 +34,13 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=HSAUR
-  license: GPL
+  license: GPL-2.0-or-later
   summary: Functions, data sets, analyses and examples from the book  ''A Handbook of Statistical Analyses Using R'' (Brian S. Everitt and Torsten Hothorn, Chapman & Hall/CRC, 2006). The first chapter of the book, which is entitled ''An Introduction to R'',  is completely included in this package, for all other chapters,
     a vignette containing all data analyses is available.
   license_family: GPL
-
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
