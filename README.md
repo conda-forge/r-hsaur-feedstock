@@ -1,11 +1,11 @@
-About r-hsaur
-=============
+About r-hsaur-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hsaur-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=HSAUR
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hsaur-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions, data sets, analyses and examples from the book  ''A Handbook of Statistical Analyses Using R'' (Brian S. Everitt and Torsten Hothorn, Chapman & Hall/CRC, 2006). The first chapter of the book, which is entitled ''An Introduction to R'',  is completely included in this package, for all other chapters, a vignette containing all data analyses is available.
 
