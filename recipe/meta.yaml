@@ -1,4 +1,4 @@
-{% set version = "1.3-10" %}
+{% set version = "1.3-11" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,11 +9,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/HSAUR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/HSAUR/HSAUR_{{ version }}.tar.gz
-  sha256: 2bee39d5d711054e0ab42abc718eb7e8fc17324c36a7d096f376953496ca8dfc
+  sha256: 489ef7966a317c15538939781305c6e6700504bfaa32f0aadaec6f637f0d1659
 
 build:
   noarch: generic
-  number: 3
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
